@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Pizza",
+    "restricted_for": ["bp", "sugar", "pcod"]
+  },
+  {
+    "name": "Salad",
+    "restricted_for": []
+  },
+  {
+    "name": "Fried Rice",
+    "restricted_for": ["bp", "thyroid"]
+  },
+  {
+    "name": "Grilled Chicken",
+    "restricted_for": ["hypertension"]
+  }
+]

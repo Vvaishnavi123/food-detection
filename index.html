@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Food Health Detector</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login to Food Health App</h2>
+    <input type="text" id="username" placeholder="Enter Username" required />
+    <input type="password" id="password" placeholder="Enter Password" required />
+    <button onclick="login()">Login</button>
+    <p id="login-message"></p>
+    <!-- Add this below the Login button -->
+<button onclick="redirectToSignup()">Sign Up</button>
+<p>Don't have an account? Please sign up first.</p>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="dashboard">
+    <h2>Welcome, <span id="user"></span></h2>
+    <p>Select Your Conditions:</p>
+    <label><input type="checkbox" value="bp"/> Blood Pressure</label>
+    <label><input type="checkbox" value="sugar"/> Diabetes</label>
+    <label><input type="checkbox" value="thyroid"/> Thyroid</label>
+    <label><input type="checkbox" value="hypertension"/> Hypertension</label>
+    <label><input type="checkbox" value="pcod"/> PCOD</label>
+
+    <h3>Upload Food Image</h3>
+    <input type="file" accept="image/*" id="foodImage"/>
+    <button onclick="analyzeFood()">Analyze Food</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
